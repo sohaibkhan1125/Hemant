@@ -55,13 +55,15 @@ export const chatSession = (userMessage: string): Promise<ChatResponse> => {
                         reject(new Error('Invalid response structure'));
                     }
                 } catch (error) {
-                    reject(new Error('Failed to parse response: ' + error.message));
+                    // Cast error to the Error type
+                    reject(new Error('Failed to parse response: ' + (error as Error).message));
                 }
             });
         });
 
         req.on('error', (error) => {
-            reject(new Error('Request failed: ' + error.message));
+            // Cast error to the Error type
+            reject(new Error('Request failed: ' + (error as Error).message));
         });
 
         // Writing the request with the user's message
