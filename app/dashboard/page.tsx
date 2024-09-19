@@ -1,16 +1,11 @@
-'use client';
-import React, { useState } from 'react'
-import SearchSection from './_components/SearchSection';
-import TemplateList from './_components/TemplateList';
+import React from 'react'
 
-function Dashboard() {
-  const [userSearchInput, setUserSearchInput] = useState<string>();
+const page = () => {
   return (
     <div>
-      <SearchSection onSearchInput={(value:string)=>setUserSearchInput(value)} />
-      <TemplateList userSearchInput={userSearchInput} />
+      test
     </div>
   )
 }
 
-export default Dashboard;
+export default page

@@ -30,7 +30,7 @@ const Page = () => {
             <b>
               <i>
                 <span id="W_Email">
-                  <a href="mailto:admin@aicontentgenerator.com">admin@aicontentgenerator.com</a>
+                  <a href="mailto:admin@techhittools.com">admin@techhittools.com</a>
                 </span>
               </i>
             </b>

@@ -4,20 +4,25 @@ import Footer from '../Footer';
 
 const Page = () => {
   return (
-    <section>
-    <TopMenu/>
-    <div className='p-5 mb-20 mt-10'>
-      <h2 className='font-semibold text-2xl'>About Us!</h2>
-      <h3 style={{ textAlign: 'center' }} className='text-2xl font-semibold mb-5'>Welcome To <span id="W_Name1">AI Content Generator</span></h3>
-      <p>
-        <span id="W_Name2">AI Content Generator</span> is a Professional <span id="W_Type1">AI Content Generator</span> Platform. Here we will provide you only interesting content, which you will like very much. We're dedicated to providing you the best of <span id="W_Type2">AI Content Generator</span>, with a focus on dependability and <span id="W_Spec">AI Content Generator</span>. We're working to turn our passion for <span id="W_Type3">AI Content Generator</span> into a booming <a href="https://www.blogearns.com/2021/05/free-about-us-page-generator.html" rel="do-follow" style={{ color: 'inherit', textDecoration: 'none' }}>online website</a>. We hope you enjoy our <span id="W_Type4">AI Content Generator</span> as much as we enjoy offering them to you.
-      </p>
-      <p>I will keep posting more important posts on my Website for all of you. Please give your support and love.</p>
-      <p style={{ fontWeight: 'bold', textAlign: 'center' }}>Thanks For Visiting Our Site<br /><br />
-        <span style={{ color: 'blue', fontSize: '16px', fontWeight: 'bold', textAlign: 'center' }}>Have a nice day!</span>
-      </p>
-    </div>
-    <Footer/>
+    <section className="bg-gray-50 min-h-screen flex flex-col justify-between">
+      <TopMenu />
+      
+      <div className="container mx-auto px-6 py-12">
+        <div className="text-center">
+          <h1 className="text-4xl font-bold text-gray-900 mb-6">About <b>Techy Hit Tools</b></h1>
+          <p className="text-lg text-gray-700 mb-4">
+            Welcome to <b>Techy Hit Tools</b>, where we share information related to online tools. We're dedicated to providing you with the very best information and knowledge on the above-mentioned topics. Our about us page is generated with the help of <a href="https://raptorkit.com/about-us-page-generator" className="text-yellow-500 underline hover:text-yellow-600 transition-colors duration-300">About Us Page Generator</a>.
+          </p>
+          <p className="text-lg text-gray-700 mb-4">
+            We hope you found all of the information on <b>Techy Hit Tools</b> helpful, as we love to share it with you.
+          </p>
+          <p className="text-lg text-gray-700">
+            If you require any more information or have any questions about our site, please feel free to contact us by email at <b>admin@techyhittools.com</b>.
+          </p>
+        </div>
+      </div>
+
+      <Footer />
     </section>
   );
 }
